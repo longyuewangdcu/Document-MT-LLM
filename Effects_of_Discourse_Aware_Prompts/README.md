@@ -4,9 +4,7 @@ Datasets and Experimental Results in [Effects of Discourse Aware Prompts].
 
 ### **Dataset Catalog** 
 
-We release related datasets and translation outputs as follows.
-
-benchmark for Zero Pronoun Recovery and Translation, this benchmark contains the zero pronoun annotations (handcraft) from five different source. 
+We release related datasets and translation outputs as follows, which is linked to [Experimental Results].
 
     .
     ├── Base                       # Sentence-level baseline using InstructGPT API without any context-based chat box
@@ -47,6 +45,11 @@ benchmark for Zero Pronoun Recovery and Translation, this benchmark contains the
     │   │   ├── *.en2              # Reference2 in orignal fomat
 
 ### **Experimental Results**
+
+<p align="center">
+    <img src="./img/prompts.png" width="50%">
+</p>
+
 ![](./img/prompts.png)
 ![](./img/prompts_results.png)
 

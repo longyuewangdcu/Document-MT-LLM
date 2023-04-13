@@ -4,6 +4,12 @@ Datasets and Experimental Results in [Effects of Discourse Aware Prompts].
 
 ### **Dataset Catalog** 
 
+We investigated three representative prompts. We utilize P1 to translate the document sentence by sentence, with each sentence placed in a single conversational turn and the entire document contained within one chat box. This mainly takes advantage of ChatGPT's long-term modeling ability in the chat box. P2 and P3 combine multiple continuous sentences and translate them in one conversational turn until the entire document is finished. This aims to maximize the context modeling in one conversational turn. The only difference is whether or not the sentential boundary tag "[]" is inserted into each sentence. 
+
+<p align="center">
+    <img src="./img/prompts.png" width="50%">
+</p>
+
 We release related datasets and translation outputs as follows, which is linked to [Experimental Results].
 
     .
@@ -46,9 +52,7 @@ We release related datasets and translation outputs as follows, which is linked 
 
 ### **Experimental Results**
 
-<p align="center">
-    <img src="./img/prompts.png" width="50%">
-</p>
+
 
 ![](./img/prompts.png)
 ![](./img/prompts_results.png)

@@ -2,15 +2,15 @@
 
 Datasets and Experimental Results in [Effects of Discourse Aware Prompts].
 
-### **Dataset Catalog** 
+### **Dataset Details** 
 
-We investigated three representative prompts. We utilize P1 to translate the document sentence by sentence, with each sentence placed in a single conversational turn and the entire document contained within one chat box. This mainly takes advantage of ChatGPT's long-term modeling ability in the chat box. P2 and P3 combine multiple continuous sentences and translate them in one conversational turn until the entire document is finished. This aims to maximize the context modeling in one conversational turn. The only difference is whether or not the sentential boundary tag "[]" is inserted into each sentence. 
+We investigate three representative prompts via ChaGPT. We utilize P1 to translate the document sentence by sentence, with each sentence placed in a single conversational turn and the entire document contained within one chat box. This mainly takes advantage of ChatGPT's long-term modeling ability in the chat box. P2 and P3 combine multiple continuous sentences and translate them in one conversational turn until the entire document is finished. This aims to maximize the context modeling in one conversational turn. The only difference is whether or not the sentential boundary tag "[]" is inserted into each sentence. 
 
 <p align="center">
-    <img src="./img/prompts.png" width="50%">
+    <img src="./img/prompts.png" width="30%">
 </p>
 
-We release related datasets and translation outputs as follows, which is linked to [Experimental Results].
+Accordingly, we release the Chinese-English datasets (including input with prompts, translation outputs and reference) in two domains. The catalog is as follows.
 
     .
     ├── Base                       # Sentence-level baseline using InstructGPT API without any context-based chat box
@@ -52,10 +52,11 @@ We release related datasets and translation outputs as follows, which is linked 
 
 ### **Experimental Results**
 
+We compare the three candidate prompts via ChatGPT and one sentence-level baseline. We use BLEU and d-BLEU to measure sentence- and document-level translation quality. We also conduct two targeted evaluation metrics to measure specific discourse phenomena: accuracy of zero pronoun translation (aZPT) and consistency of terminology translation (cTT).
 
-
-![](./img/prompts.png)
-![](./img/prompts_results.png)
+<p align="center">
+    <img src="./img/prompts_results.png" width="90%">
+</p>
 
 ### **Contact information**
 

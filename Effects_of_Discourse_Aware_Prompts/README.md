@@ -10,13 +10,13 @@ We investigate three representative prompts via ChaGPT. We utilize P1 to transla
     <img src="./img/prompts.png" width="40%">
 </p>
 
-Accordingly, we release the Chinese-English datasets (including input with prompts, translation outputs and reference) in two domains. 
+Accordingly, we release the Chinese-English datasets in News and Fiction domains. 
 
 <p align="center">
-    <img src="./img/data.png" width="40%">
+    <img src="./img/data.png" width="60%">
 </p>
 
-The catalog is as follows.
+The catalog (including input with prompts, translation outputs and reference) is as follows.
 
     .
     ├── Base                       # Sentence-level baseline using InstructGPT API without any context-based chat box

@@ -32,11 +32,11 @@ Accordingly, we release all datasets, including input with prompts, translation 
     │   ├── chatgpt.result          # Output of ChatGPT
     │   ├── chatgpt.result.merge    # Merged translation results for document-level evaluation
     ├── ted_zh2en                   # TED (ZH-EN) dataset
-    │   ├── test.zh.doc             # Original input
-    │   ├── test.en.doc             # Reference
-    │   ├── test.zh.doc.prompt      # Input for ChatGPT
-    │   ├── chatgpt.result          # Output of ChatGPT
-    │   ├── chatgpt.result.merge    # Merged translation results for document-level evaluation    
+        ├── test.zh.doc             # Original input
+        ├── test.en.doc             # Reference
+        ├── test.zh.doc.prompt      # Input for ChatGPT
+        ├── chatgpt.result          # Output of ChatGPT
+        ├── chatgpt.result.merge    # Merged translation results for document-level evaluation    
 
 ### **Experimental Results**
 

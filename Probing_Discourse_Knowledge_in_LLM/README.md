@@ -4,7 +4,13 @@ Datasets used in [5.1 Probing Discourse Knowledge in LLM].
 
 ### **Dataset Details** 
 
-In order to verify whether LLMs (i.e., ChatGPT and GPT-4) truly learn to utilize the context to resolve discourse inconsistencies, we adopt the contrastive test sets proposed by [Voita](https://github.com/lena-voita/good-translation-wrong-in-context). This dataset includes deixis, lexicon consistency, ellipsis (inflection), and ellipsis (verb phrase) for evaluating discourse phenomena in English-Russian translations. We release all input datasets of ChatGPT and GPT-4, their responses and human annotation. The catalogue is as follows:
+In order to verify whether LLMs (i.e., ChatGPT and GPT-4) truly learn to utilize the context to resolve discourse inconsistencies, we adopt the contrastive test sets proposed by [Voita](https://github.com/lena-voita/good-translation-wrong-in-context). 
+
+<p align="center">
+    <img src="./img/data.png" width="60%">
+</p>
+
+This dataset includes deixis, lexicon consistency, ellipsis (inflection), and ellipsis (verb phrase) for evaluating discourse phenomena in English-Russian translations. We release all input datasets of ChatGPT and GPT-4, their responses and human annotation. The catalogue is as follows:
 
     .
     ├── chatgpt-results                  # 

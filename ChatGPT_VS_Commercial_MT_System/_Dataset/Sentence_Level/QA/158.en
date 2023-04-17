@@ -1,0 +1,7 @@
+The initiating speed of Office Excel is slow, what can I do with it?
+Reinstall the system, or it’s the file being too big issue.
+The system and the software are new, and the hard drive is SSD, of which the speed is enough. But I don’t understand why it works after banning the Print Spooler.
+How to solve it that I can’t access the Local Disk E.
+It’s a permission issue. You use the super user to enter the disk permission to modify.
+I’m the administrator. And it remains the same after modifying the permissions.
+It’s already been solved. I’ll give you more points.

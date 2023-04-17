@@ -1,0 +1,8 @@
+How can I create a new file in C language?
+fopen ( const char path , const char mode ), select the w mode, which mean clear the content when the file is saved. Establish, select A additional method, open the read only fie, and the data written would be added to the end of the file.
+Is it for opening the file?
+There are just a few functions in the C standard library, and the specific function of fopen is relative to the mode selected, or you can use the tmpfile. The essence of it is wb + and it is a temporary file, which would be deleted when quit it.
+I need a customer relation managing system.
+Try the download trial for free.
+I can’t find out where I can download it.
+Google it and you can visit the relative website. And go to the download center and do it. Or can ask the customer service for a download link.

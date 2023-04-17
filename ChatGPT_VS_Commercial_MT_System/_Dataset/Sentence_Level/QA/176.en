@@ -1,0 +1,8 @@
+How to enter DOS to low format the hard disk?
+Find the low format program on the motherboard. Many motherboards have that functions.
+Use DOS 6 to boot the system and run DM to low format the hard disk.
+Use the CD to start the computer, select the DOS tool on the CD’s menu, and use DM directly to low format it. And here are some tips: low format your hard drive, clear the virus thoroughly, only need to delete all the sections to repartition.
+Thank you for reminding me. There are some bad sectors on my hard drive and I heard that low format could help to shield it. I have no choice but this.
+But I don’t know how to low format.
+Low format can only solve logical bad sectors and it cannot fix the physical ones. Actually, as for the logical bad sectors, as long as you delete all partitions,
+And repartition could fix the problem on the premise that the bad sectors are not too many. I get it wrong, there are few motherboards that have low format program. But now the GHOST version CD has DOS tools in it.

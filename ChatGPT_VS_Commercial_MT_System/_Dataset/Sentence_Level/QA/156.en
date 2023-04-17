@@ -1,0 +1,11 @@
+Partition the disk with one more section and how can I merge it? With what tool?
+Use Acronis Dis k Director Suite, it’s a lossless partition tool, which I’ve used for three or four years.
+I once helped a friend to partition Windows XP, and there is a merge function in Windows 7. Use Acronis Dis k Director Suite then.
+Is it in Chinese? Is it hard to learn? I want to divided the extra disk evenly to into the other four disks.
+Formerly it was in English, I like to use the English version, for it’s stable. And there is a Chinese version, but I am afraid that there might be a problem.
+If you mess up with the partition you might lose some data. There might be the Chinese version now, you can process it first.
+When the partition meets your demands, click the apply and then the partition begins, which is required to restart it. And then you just wait.
+Don’t cut off the power, or it’s going to be troublesome. Divide into 4 partitions evenly is out of question, it’s just you have to do the math.
+For example, you have 10G capacity to partition, then gives 2.5G for each partition. That graphic interface looks clearly. Personally, I recommend you to install a virtual machine first.
+Partition the virtual as a practice, and process it when you get familiar with it. Safety first.
+I’ll download one to have a try.

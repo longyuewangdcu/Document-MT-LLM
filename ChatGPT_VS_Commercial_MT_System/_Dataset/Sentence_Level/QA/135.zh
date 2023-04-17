@@ -1,0 +1,4 @@
+这段代码啥意思
+设置此div的背景色为#A1EAFF
+这是jquery么？还有ID是代指一个jsp页面吗？
+这是jQuery，id表示html中定义的id，如设置此div的背景色为# A1EAFF videoinfo 就是一个id

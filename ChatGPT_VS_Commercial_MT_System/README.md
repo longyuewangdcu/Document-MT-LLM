@@ -1,8 +1,10 @@
 # Effects of Discourse Aware Prompts
 
-Datasets and Experimental Results in [Effects of Discourse Aware Prompts].
+Datasets and Experimental Results in [ChatGPT vs. Commercial Systems].
 
 ### **Dataset Details** 
+
+We compare ChatGPT/GPT-4 with three commercial translation products, including Google Translate, DeepL Translate, and Tencent TranSmart.
 
 We investigate three representative prompts via ChaGPT. We utilize P1 to translate the document sentence by sentence, with each sentence placed in a single conversational turn and the entire document contained within one chat box. This mainly takes advantage of ChatGPT's long-term modeling ability in the chat box. P2 and P3 combine multiple continuous sentences and translate them in one conversational turn until the entire document is finished. This aims to maximize the context modeling in one conversational turn. The only difference is whether or not the sentential boundary tag "[]" is inserted into each sentence. 
 

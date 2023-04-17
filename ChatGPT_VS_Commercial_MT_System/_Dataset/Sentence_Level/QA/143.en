@@ -1,0 +1,8 @@
+Dahua, hard drive, VCR, remote monitoring setup.
+I did this with my company’s Dahua. First, turn on the network option and check it in the local area network to see if it can be detected. And fill in the intranet IP address of the VCR which is in the DMZ host settings of the router. And turn on the domain name function. TP-link router has this function. If there is no such a function, try to upgrade the router’s routing firmware version. The one in my company didn’t have this function, and then it has after upgrading. And you need to apply for a domain name yourself, of course.
+I can see the local network, and I followed every step you said and applied for a domain name as well. And the question is what should I enter on internet, I’ve no idea.
+Router’s domain name and the DMZ host (namely the intranet IP address of your VCR). Do they bind together successfully? If so, you can check your VCR through internet after filling in the domain name.
+It’s all set up. I fill in the website at home and it says unable to display webpage. I don’t know if I did it right with the domain name. And this is the website.
+When the mobile phone is used, stripes suddenly appear and then the screen goes black. The stripes have appeared in various colors.
+The screen is broken or the screen inside is loose, over.
+Is it not anything with the cables?

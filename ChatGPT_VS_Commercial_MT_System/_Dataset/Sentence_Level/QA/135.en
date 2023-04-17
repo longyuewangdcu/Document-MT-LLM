@@ -1,0 +1,4 @@
+What does this code mean?
+Set the background color of div as # A1EAFF.
+Is it jquery? And is ID referred to a jsp page?
+It is Jquery, and the ID means the ID defined in html. For instance, set the background color of div as # A1EAFF, and the videinfo is an ID.

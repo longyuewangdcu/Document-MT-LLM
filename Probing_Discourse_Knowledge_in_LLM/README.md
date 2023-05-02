@@ -29,3 +29,15 @@ This dataset includes deixis, lexicon consistency, ellipsis (inflection), and el
         ├── deixis_test.human.pred.acc   # Human annotation for model's prediction (0: wrong, 1: correct)
         ├── deixis_test.human.expl.acc   # Human annotation for model's explanation (0: wrong, 1: correct)
         ├── ... 
+
+### **Experimental Results**
+
+We compare the three candidate prompts via ChatGPT and one sentence-level baseline. We use BLEU and d-BLEU to measure sentence- and document-level translation quality. We also conduct two targeted evaluation metrics to measure specific discourse phenomena: accuracy of zero pronoun translation (aZPT) and consistency of terminology translation (cTT).
+
+<p align="center">
+    <img src="./img/prompts_results.png" width="90%">
+</p>
+
+### **Contact Information**
+
+Zhang, Zhirui: jackzrzhang@tencent.com
